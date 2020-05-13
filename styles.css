@@ -1,37 +1,64 @@
 body{}
 div{}
 ul{
-    list-style: none;
-    margin: 0px;
-    padding:0px;
-    position:relative;
+
+   
 }
 li{
     display:inline;
 }
-a{}
-
 
 
 .navbar{
 text-align: right;
+margin-bottom: 150px;
 }
 .logo_box{
-    display: block;
+    display:block;
     margin-left: auto;
     margin-right: auto;
-    width:50%
+    width: 20%;
 
 }
-.search_form{}
-.buttons{}
-.footer{}
+.search_form{
+    display:inline;
+    text-align:center;
+   
+    
+}
+.buttons{
+    display:inline;
+    text-align: center;
+   
+    
+}
+.footer{   
+    margin:0;
+    padding:0;
+}
+#left_list{
+  display:inline;
+  position:fixed;
+  bottom:0;
+  left:1px;
+}
+#right_list{
+    display:inline;
+    position:fixed;
+    bottom:0;
+    right:1px;    
+}
+#ads{
+    margin-right: 10px;
+}
 
-#appicon{}
-#emailicon{}
-#gmail{}
-#logo{}
-#searchbar{}
-#left_list{}
-#right_list{}
+#apps{
+   width:25px;
+   margin-top: 0px;
+}
+
+#gmail{
+    width: 25px;
+}
+
 
