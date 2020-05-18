@@ -1,64 +1,140 @@
-body{}
-div{}
-ul{
 
-   
-}
-li{
-    display:inline;
-}
+body{
+    font-family: Arial,sans-serif;
+    font-size:13px;
+    color:black
+    }
 
+ul  {
+    list-style-type:none;
+    margin:0;
+    font-family:Arial,sans-serif;
+    color:black;
+    opacity:.75;
+    padding:15px;
+    }
 
-.navbar{
-text-align: right;
-margin-bottom: 150px;
+li  {
+    float:right;
+    }
+
+a   {
+    text-decoration:none;
+    color:black;
+    padding:8px;
+
 }
+input{
+    border-top-style:hidden;
+    border-right-style:hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color:transparent;
+
+}
+button{
+    border-top-style:hidden;
+    border-right-style:hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color:transparent;
+}
+    
+}
+a:hover a:active {
+    text-decoration:underline;
+    }
+
+.apps{
+    height:30px;
+    padding:10px;
+    margin-top:-20px;
+    }
+.account{
+    display:block;
+    height:40px;
+    padding:5px;
+    margin-top:-36px;
+    border-radius:45%;
+    
+
+    }
+
+#main{
+    text-align:center;
+    }
+
 .logo_box{
     display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    margin-left:560px;
+    margin-right:auto;
+    margin-top:10em;
+    margin-bottom:-13px;
+    padding-bottom:0px;
+    width:25em;
+    
+}    
 
-}
-.search_form{
-    display:inline;
-    text-align:center;
-   
-    
-}
+
+
+
 .buttons{
+    text-align:center;
     display:inline;
-    text-align: center;
-   
-    
-}
-.footer{   
-    margin:0;
-    padding:0;
-}
-#left_list{
-  display:inline;
-  position:fixed;
-  bottom:0;
-  left:1px;
-}
-#right_list{
-    display:inline;
+    background-color:honeydew;
+    border:1px solid honeydew;
+    border-radius:4px;
+    margin:0 5px;
+    width:139px;
+    height:39px;
+    font-size:14px;
+    color:black;
+    opacity:.75;
+    }
+
+.search_form {
+    height:40px;
+    width:450px;
+    border:solid 1px rgb(214, 211, 211);
+    border-radius:28px;
+    margin-top:27px;
+    padding:2px 0px 2px 50px;
+    font-size:url(https://cdn1.iconfinder.com/data/icons/ui-line-9/50/Artboard_29-512.png);
+    background-repeat:no-repeat;
+    background-position:18px;
+    background-size:18px;
+    background-color:transparent;
+    margin-left:460px;
+    }
+.search_form:hover .search_form:active{
+        box-shadow:0 1px 6px 0 rgba(32,33,36,28)
+    }
+.footer{
     position:fixed;
     bottom:0;
-    right:1px;    
+    width:100%;
+    margin:0;
+    color:black;
+    opacity:.75;
+    padding-bottom:6px;
+    margin-left:-10px;
+    border:solid 1px rgb(216,216.216);
+    background:rgb(240,240,240);
+    visibility:visible;
 }
-#ads{
-    margin-right: 10px;
+.fl{
+    font-size:14px;
+    float:left;
+    padding-left:6px;
+    margin:0 !important;
+    }
+.fr{
+    float:right;
+    font-size;
+    padding-left:15px;
+    margin:0 !important 
+
 }
 
-#apps{
-   width:25px;
-   margin-top: 0px;
-}
-
-#gmail{
-    width: 25px;
-}
 
 
